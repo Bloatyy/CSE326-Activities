@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Kunal Singh Rathore</h1>
+        <p>Welcome to my Personal Profile Page!</p>
+        <img src="https://www.shutterstock.com/image-photo/thinking-graduate-man-vision-on-260nw-2248535453.jpg" alt="" style="width:250px;height:200px;">
+        <br>
+        <pre><a href="#About Me">About Me</a>    <a href="#Projects">My Projects</a>    <a href="#Contact">Contact Me</a></pre>
+        <a id="About Me"></a>
+        <h2>About Me</h2>
+        <p>I am Kunal Singh Rathore from Gohpur, Assam. Currently, I am pursuing B.Tech as a fresher. I am very passionate about Tech, I've acquired skills in web development, like HTML, CSS and programming languages like C++ and python. Apart from studies, I Indulge in watching crime documentaries, enjoy a fair share of music/movies, exploring new cities, and stay active in sports like badminton and football. I am also fluent in English, Hindi and Assamese.</p>
+        <img src="https://img.freepik.com/premium-vector/young-man-programmer-working-computer-with-code-screen-student-programming-vector-concept_53562-4999.jpg" alt="" style="width: 250px; height: 200px;">
+        <a id="Projects"></a>
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: Made a Chatbot using Python.</li>
+            <br>
+            <li>Project 2: Created a Responsive Webpage for Assam Flood Donation.</li>
+        </ul>
+        <a id="Contact"></a>
+        <h2>Contact Details</h2>
+        <p><address>
+            B-516, Boys Hostel 2 <br>
+            Lovely Professional University <br>
+            Phagwara, Punjab <br>
+            E-mail: kunalsinghxxx@gmail.com <br>
+            Phone: 863871xxxx <br>
+        </address></p>
+</body>
+</html>
