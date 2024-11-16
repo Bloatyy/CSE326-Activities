@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #box1 {
+        border: 3px solid black;
+        margin-left: 15vmax;
+        height: 80vh;
+        width: 70vh;
+    }
+    #box2 {
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 8px;
+        height: 15vh;
+        width: 60vh;
+    }
+    #box3 {
+        border: 2px solid grey;
+        margin: 23px;
+        padding-left: 10px;
+        height: 50vh;
+        width: 60vh;
+    }
+    h1,table {
+        text-align: center;
+    }
+    table {
+        padding: 15px;
+        width: 58vh;
+    }
+    th {
+        background-color: blue;
+        border: 2px solid black;
+        padding: 20px;
+    }
+    th:hover {
+        color: magenta;
+    }
+    td {
+        padding: 8px;
+        height: 5vh;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+    }
+</style>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2">
+            <h1>Marks table</h1>
+        </div>
+        <div id="box3">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Maths</th>
+                    <th colspan="2">Physics</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>54</td>
+                    <td>43</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>54</td>
+                    <td>43</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>54</td>
+                    <td>43</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>172</td>
+                    <td>169</td>
+                    <td>68</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
