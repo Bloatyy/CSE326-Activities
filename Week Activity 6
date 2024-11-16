@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 2px solid black;
+            padding: 40px;
+            height: 450px;
+            width: 400px;
+            align-content: center;
+        }
+        .box1{
+            border: 2px solid black;
+            width: 80px;
+            padding: 5px;
+            height: 80px;
+            align-content: center;
+            text-align: center;
+            margin: -30px;
+            background-color: green;
+        }
+        .box2{
+            border: 2px solid black;
+            height: 8px;
+            padding: 8px;
+            width: 230px;
+            margin-left: 80px;
+            margin-top: -93px;
+            background-color: green;
+        }
+        .box3{
+            border: 2px solid black;
+            padding: 8px;
+            height: 6px;
+            width: 140px;
+            margin-left: 80px;
+            margin-top: 10px;
+        }
+        .nav{
+            padding: 10px;
+            display: flex;
+            margin-left: 65px;
+        }
+        .nav div{
+            border: 2px solid black;
+            margin: 4px;
+            height: 15px;
+            width: 40px;
+        }
+        #b1{
+            background-color: green;
+        }
+        .box10{
+            border: 2px solid; 
+            text-align: center; 
+            padding: 8px;
+            width: 80px;
+            margin-left: -30px;
+            margin-top: 40px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        .box11{
+            border: 2px solid; 
+            float:right;
+            text-align: center; 
+            align-content: center;
+            padding: 8px;
+            width: 300px;
+            margin-left: 0px;
+            margin-top: -180px;
+            padding-bottom: 260px;
+        }
+        #footer1{
+            text-align: center; 
+            padding: 8px;
+            width: 80px;
+            margin-left: -30px;
+            margin-top: 40px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        #footer2{
+            border: 2px solid black;
+            padding: 8px;
+            margin-left: 80px;
+            margin-top: -70px;
+            text-align: center;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+<div class="main">
+    <div class="big">
+    <div class="box1">LOGO</div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    
+    <div class="nav">
+    <div id="b1" class="box4"></div>
+    <div id="b1" class="box5"></div>
+    <div id="b1" class="box6"></div>
+    <div id="b1" class="box7"></div>
+    <div id="b1" class="box8"></div>
+    <div id="b1" class="box9"></div>
+    </div>
+
+    <div class="box10">Navigation</div>
+    <div class="box11">Content</div>
+    <footer id="footer1"></footer>
+    <footer id="footer2">Footer</footer>
+</div>
+</body>
+</html>
+
