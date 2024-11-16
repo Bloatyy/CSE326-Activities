@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: whitesmoke;
+        }
+        #content {
+            font-size: large;
+        }
+        #div1 {
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 5px;
+        }
+        #div2 {
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            color: black;
+            padding: 2px 10px 30px 10px;
+            margin: 2px 20px 30px 20px;
+        }
+        #div3 {
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 20px;
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>Welcome to My Webpage</h1>
+        <pre id="content">Home    About    Contact</pre>
+    </div>
+    <br>
+    <div id="div2">
+        <h2>About This Page</h2>
+        <p>This is a simple webpage to demonstrate styling and linking</p>
+        <a href="">Visit Example.com</a>
+    </div>
+    <div id="div3">
+        <p>&copy; 2024 My Webpage</p>
+    </div>
+</body>
+</html>
+
