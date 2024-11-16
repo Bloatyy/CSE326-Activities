@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwick Smith Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .headbox {
+            background-color: aliceblue;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            border: 1px solid black;
+            color: #2176FF;
+        }
+
+        .header h1 {
+            margin-bottom: 5px;
+            font-size: 2em;
+            color: #2176FF;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        /* Navigation */
+        .nav {
+            background-color: #555;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .nav a {
+            display:inline-block;
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            background-color: #333;
+        }
+
+        /* Section Styling */
+        .section {
+            color: #ff6b6b;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .section h2 {
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+
+        .project-list {
+            margin: 10px 0;
+        }
+
+        .project {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            margin-bottom: 5px;
+        }
+
+        .project-stats {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .project-stats th,
+        .project-stats td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .project-stats th {
+            background-color: #f3f0f0;
+            color: #ff6b6b;
+        }
+
+        .project-stats td {
+            background-color: #f9f9f9;
+        }
+
+        .contact-form label {
+            display: inline-block;
+            margin: 10px 0 5px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        .footerbox{
+            font-size: small;
+            padding: 10px;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 3px;
+            border: 1px solid black;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="headbox">
+        <h1>Kunal Singh Rathore</h1>
+        <p>Web Developer & Designer</p>
+    </div>
+</div>
+
+<div class="nav">
+    <a href="#About">About</a>
+    <a href="#Projects">Projects</a>
+    <a href="#Contact">Contact</a>
+</div>
+
+<div id="About" class="container">
+    <!-- About Me Section -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Kunal Singh Rathore, a passionate web developer with a love for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and more.</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="Projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Statistics Section -->
+    <div class="section">
+        <h2 style="text-align: center;">Project Statistics</h2>
+        <table class="project-stats">
+            <tr>
+                <th>Project</th>
+                <th>Technologies</th>
+                <th>Completion Date</th>
+            </tr>
+            <tr>
+                <td>Project 1</td>
+                <td>HTML, CSS, JavaScript</td>
+                <td>June 2024</td>
+            </tr>
+            <tr>
+                <td>Project 2</td>
+                <td>React, Node.js</td>
+                <td>August 2024</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div id="Contact" class="section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label>Preferred Contact Method:</label>
+            <input type="radio" id="email" name="contact-method" value="email" checked>
+            <label for="email">Email</label>
+            <input type="radio" id="phone" name="contact-method" value="phone">
+            <label for="phone">Phone</label>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to newsletter</label>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <p class="footerbox">&copy; 2024 Kunal Singh Rathore. All rights reserved.</p>
+</div>
+</body>
+</html>
+
+ 
+
+
