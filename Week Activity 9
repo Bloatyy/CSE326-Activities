@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    * {
+        margin: 0;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    form {
+        width: fit-content;
+    }
+    fieldset {
+        padding: 20px;
+    }
+    input, textarea {
+        width: 200px;
+    }
+    input[type=submit] {
+        background-color: rgb(30, 203, 8);
+        color: white;
+        border: solid rgb(30,203,8);
+        border-radius: 3px;
+        padding: 3px;
+        cursor: pointer;
+        width: 260px;
+        height: 30px;
+    }
+</style>
+</head>
+<body>
+    <form action='backend.php'>
+        <h1>Registration Form</h1>
+        <br>
+        <fieldset>
+          <label for="first-name">Name:</label><br>
+          <input id="first-name" type="text" required /><br><br>
+          <label for="email">Email:</label><br>
+          <input id="email" type="email" required /><br><br>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" pattern="[a-z0-5]{8,}" required><br><br>
+          <label for="gender-select">Gender:</label><br>
+          <select name="gender" id="gender-select">Gender:
+          <option value="Select">Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          </select><br><br>
+          <label for="sugg">Bio: <br><textarea cols="" rows="5" id="Sugg"></textarea></label>
+        </fieldset>
+        <pre></pre>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
+ 
